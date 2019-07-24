@@ -2,7 +2,8 @@
 
 An unoffical docker image for nomad http://nomadproject.io
 
-[![DockerPulls](https://img.shields.io/docker/pulls/ansrivas/nomad.svg)](https://registry.hub.docker.com/u/ansrivas/nomad/) [![Docker Build Status](https://img.shields.io/docker/cloud/build/ansrivas/nomad.svg)]()
+[![DockerPulls](https://img.shields.io/docker/pulls/ansrivas/nomad.svg)](https://registry.hub.docker.com/u/ansrivas/nomad/) 
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ansrivas/nomad.svg)](https://registry.hub.docker.com/u/ansrivas/nomad/)
 
 
 ### Example:
