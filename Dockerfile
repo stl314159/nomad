@@ -1,6 +1,6 @@
 FROM debian:stretch-slim AS build-base
 
-ENV NOMAD_VERSION 0.11.0-beta1
+ENV NOMAD_VERSION 0.11.0-beta2
 
 RUN apt-get update -y \
     && apt-get install -y wget zip \
