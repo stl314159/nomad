@@ -1,4 +1,4 @@
-FROM debian:stretch-slim AS build-base
+FROM debian:buster-slim AS build-base
 
 ENV NOMAD_VERSION 0.11.0
 
@@ -8,7 +8,7 @@ RUN apt-get update -y \
     && unzip nomad_${NOMAD_VERSION}_linux_amd64.zip \
     && chmod +x /nomad
 
-FROM debian:stretch-slim
+FROM debian:buster-slim
 COPY --from=build-base /etc/ssl/certs/ /etc/ssl/certs
 COPY --from=build-base /nomad /
 ENTRYPOINT ["/nomad"]
